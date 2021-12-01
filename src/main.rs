@@ -5,7 +5,6 @@ mod secret;
 use crate::secret::set_info;
 
 fn main() {
-    // env::var("name");
     set_info();
 
     println!("Enter Goldy Password:");
